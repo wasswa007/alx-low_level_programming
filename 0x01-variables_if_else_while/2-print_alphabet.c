@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <ctype.h>
 /**
@@ -9,7 +8,7 @@
 int main(void)
 {
 	int letter;
-	
+
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		letter = tolower(letter);
